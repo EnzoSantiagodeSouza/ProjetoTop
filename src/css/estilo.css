@@ -44,11 +44,11 @@ a:hover{
     color:var(--colorFont2);
 }
 
-.inicio{
+.sobre-nos{
     width:100%;
     min-height: 100vh;
     padding:3rem;
-    background-image:var(--gradient),url(../assets/Banner.jpg);
+    background-image:var(--gradient), url(../assets/Banner-Painel.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     color:var(--colorFont1);
@@ -70,7 +70,6 @@ header h1{
 
 span{
     color:var(--colorFont2);
-    margin-left:10px;
 }
 
 .menu-header{
@@ -141,6 +140,6 @@ span{
     }
 
     .hamburguer.active .barra:last-child{
-        transform:translateY(-8px) rotate(-360deg) rotate(-45deg);
+        transform:translateY(-16px) rotate(-360deg) rotate(-45deg);
     }
 }
