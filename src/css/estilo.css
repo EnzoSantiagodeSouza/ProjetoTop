@@ -63,6 +63,7 @@ header{
     align-items:center;
 }
 
+
 header h1{
     font-size:3rem;
     position:relative;
@@ -106,7 +107,7 @@ footer{
     font-size:1rem;
     padding-top:1rem;
     display:flex;
-    justify-content:right;
+    justify-content:center;
 }
 
 /* PÁGINA SOBRE: */
@@ -158,6 +159,33 @@ footer{
 }
 /* ==================== */
 
+/* PÁGINA PRODUTOS */
+.conteudo-produtos{
+    display:flex;
+    justify-content:center;
+    gap:2rem;
+}
+
+.produtos{
+    background:#0505055e;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align:center;
+    border-radius:15%;
+    margin:10px;
+    padding-top:20px;
+}
+
+.produtos a{
+    font-size:1.2rem;
+}
+
+.produtos img{
+    width:250px;
+    height:300px;
+}
+/* ==================== */
 
 /* RESPONSIVIDADE */
 @media (width <= 1024px){
