@@ -102,6 +102,13 @@ span{
     align-items:center;
 }
 
+footer{
+    font-size:1rem;
+    padding-top:1rem;
+    display:flex;
+    justify-content:right;
+}
+
 /* PÁGINA SOBRE: */
 
 .conteudo{
@@ -149,6 +156,8 @@ span{
 #titulo-2{
     padding-left:28.5rem;
 }
+/* ==================== */
+
 
 /* RESPONSIVIDADE */
 @media (width <= 1024px){
