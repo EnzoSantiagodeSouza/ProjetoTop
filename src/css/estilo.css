@@ -114,7 +114,7 @@ footer{
 
 .conteudo{
     padding:3rem;
-    background:#00000033
+    background:#000000a1
 }
 
 .conteudo h1{
@@ -167,7 +167,7 @@ footer{
 }
 
 .produtos{
-    background:#0505055e;
+    background:#000000a1;
     justify-content:center;
     text-align:center;
     border-radius:25%;
@@ -229,5 +229,37 @@ footer{
 
     .conteudo-produtos{
         display:grid;
+    }
+
+    .conteudo{
+        display:grid;
+    }
+
+    .conteudo h2{
+        text-align:center;
+    }
+
+    #titulo-2{
+        padding-left:0;
+    }
+
+    #texto-1{
+        display:grid;
+    }
+
+    #texto-1 img{
+        height:300px;
+        width:400px;
+        padding-top:0.5rem;
+    }
+
+    #texto-2{
+        display:grid;
+    }
+
+    #texto-2 img{
+        height:300px;
+        width:400px;
+        justify-self:end;
     }
 }
