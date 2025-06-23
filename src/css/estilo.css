@@ -168,13 +168,11 @@ footer{
 
 .produtos{
     background:#0505055e;
-    display:flex;
-    flex-wrap:wrap;
     justify-content:center;
     text-align:center;
-    border-radius:15%;
-    margin:10px;
-    padding-top:20px;
+    border-radius:25%;
+    margin:1px;
+    padding:1.6rem;
 }
 
 .produtos a{
@@ -182,8 +180,9 @@ footer{
 }
 
 .produtos img{
-    width:250px;
-    height:300px;
+    width:40vh;
+    height:50vh;
+    border-radius:25%;
 }
 /* ==================== */
 
@@ -226,5 +225,9 @@ footer{
 
     .hamburguer.active .barra:last-child{
         transform:translateY(-16px) rotate(-360deg) rotate(-45deg);
+    }
+
+    .conteudo-produtos{
+        display:grid;
     }
 }
